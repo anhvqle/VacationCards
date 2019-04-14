@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780B06592262F168005CE5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B06582262F168005CE5AC /* AppDelegate.swift */; };
+		780B065B2262F168005CE5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B065A2262F168005CE5AC /* ViewController.swift */; };
+		780B065E2262F168005CE5AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780B065C2262F168005CE5AC /* Main.storyboard */; };
+		780B06602262F169005CE5AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780B065F2262F169005CE5AC /* Assets.xcassets */; };
+		780B06632262F169005CE5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780B06612262F169005CE5AC /* LaunchScreen.storyboard */; };
+		780B066E2262F169005CE5AC /* VacationCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B066D2262F169005CE5AC /* VacationCardsTests.swift */; };
+		780B06792262F169005CE5AC /* VacationCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B06782262F169005CE5AC /* VacationCardsUITests.swift */; };
+		780B06872262F514005CE5AC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B06862262F514005CE5AC /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		780B066A2262F169005CE5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780B064D2262F168005CE5AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 780B06542262F168005CE5AC;
+			remoteInfo = VacationCards;
+		};
+		780B06752262F169005CE5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780B064D2262F168005CE5AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 780B06542262F168005CE5AC;
+			remoteInfo = VacationCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780B06552262F168005CE5AC /* VacationCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacationCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		780B06582262F168005CE5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		780B065A2262F168005CE5AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		780B065D2262F168005CE5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		780B065F2262F169005CE5AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		780B06622262F169005CE5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		780B06642262F169005CE5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780B06692262F169005CE5AC /* VacationCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		780B066D2262F169005CE5AC /* VacationCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationCardsTests.swift; sourceTree = "<group>"; };
+		780B066F2262F169005CE5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780B06742262F169005CE5AC /* VacationCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		780B06782262F169005CE5AC /* VacationCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationCardsUITests.swift; sourceTree = "<group>"; };
+		780B067A2262F169005CE5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780B06862262F514005CE5AC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		780B06522262F168005CE5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780B06662262F169005CE5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780B06712262F169005CE5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780B064C2262F168005CE5AC = {
+			isa = PBXGroup;
+			children = (
+				780B06572262F168005CE5AC /* VacationCards */,
+				780B066C2262F169005CE5AC /* VacationCardsTests */,
+				780B06772262F169005CE5AC /* VacationCardsUITests */,
+				780B06562262F168005CE5AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		780B06562262F168005CE5AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				780B06552262F168005CE5AC /* VacationCards.app */,
+				780B06692262F169005CE5AC /* VacationCardsTests.xctest */,
+				780B06742262F169005CE5AC /* VacationCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		780B06572262F168005CE5AC /* VacationCards */ = {
+			isa = PBXGroup;
+			children = (
+				780B06582262F168005CE5AC /* AppDelegate.swift */,
+				780B065A2262F168005CE5AC /* ViewController.swift */,
+				780B065C2262F168005CE5AC /* Main.storyboard */,
+				780B06862262F514005CE5AC /* CollectionViewCell.swift */,
+				780B065F2262F169005CE5AC /* Assets.xcassets */,
+				780B06612262F169005CE5AC /* LaunchScreen.storyboard */,
+				780B06642262F169005CE5AC /* Info.plist */,
+			);
+			path = VacationCards;
+			sourceTree = "<group>";
+		};
+		780B066C2262F169005CE5AC /* VacationCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				780B066D2262F169005CE5AC /* VacationCardsTests.swift */,
+				780B066F2262F169005CE5AC /* Info.plist */,
+			);
+			path = VacationCardsTests;
+			sourceTree = "<group>";
+		};
+		780B06772262F169005CE5AC /* VacationCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				780B06782262F169005CE5AC /* VacationCardsUITests.swift */,
+				780B067A2262F169005CE5AC /* Info.plist */,
+			);
+			path = VacationCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		780B06542262F168005CE5AC /* VacationCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780B067D2262F169005CE5AC /* Build configuration list for PBXNativeTarget "VacationCards" */;
+			buildPhases = (
+				780B06512262F168005CE5AC /* Sources */,
+				780B06522262F168005CE5AC /* Frameworks */,
+				780B06532262F168005CE5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VacationCards;
+			productName = VacationCards;
+			productReference = 780B06552262F168005CE5AC /* VacationCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		780B06682262F169005CE5AC /* VacationCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780B06802262F169005CE5AC /* Build configuration list for PBXNativeTarget "VacationCardsTests" */;
+			buildPhases = (
+				780B06652262F169005CE5AC /* Sources */,
+				780B06662262F169005CE5AC /* Frameworks */,
+				780B06672262F169005CE5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780B066B2262F169005CE5AC /* PBXTargetDependency */,
+			);
+			name = VacationCardsTests;
+			productName = VacationCardsTests;
+			productReference = 780B06692262F169005CE5AC /* VacationCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		780B06732262F169005CE5AC /* VacationCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780B06832262F169005CE5AC /* Build configuration list for PBXNativeTarget "VacationCardsUITests" */;
+			buildPhases = (
+				780B06702262F169005CE5AC /* Sources */,
+				780B06712262F169005CE5AC /* Frameworks */,
+				780B06722262F169005CE5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780B06762262F169005CE5AC /* PBXTargetDependency */,
+			);
+			name = VacationCardsUITests;
+			productName = VacationCardsUITests;
+			productReference = 780B06742262F169005CE5AC /* VacationCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		780B064D2262F168005CE5AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Anh Le";
+				TargetAttributes = {
+					780B06542262F168005CE5AC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					780B06682262F169005CE5AC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 780B06542262F168005CE5AC;
+					};
+					780B06732262F169005CE5AC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 780B06542262F168005CE5AC;
+					};
+				};
+			};
+			buildConfigurationList = 780B06502262F168005CE5AC /* Build configuration list for PBXProject "VacationCards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 780B064C2262F168005CE5AC;
+			productRefGroup = 780B06562262F168005CE5AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				780B06542262F168005CE5AC /* VacationCards */,
+				780B06682262F169005CE5AC /* VacationCardsTests */,
+				780B06732262F169005CE5AC /* VacationCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		780B06532262F168005CE5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B06632262F169005CE5AC /* LaunchScreen.storyboard in Resources */,
+				780B06602262F169005CE5AC /* Assets.xcassets in Resources */,
+				780B065E2262F168005CE5AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780B06672262F169005CE5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780B06722262F169005CE5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		780B06512262F168005CE5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B065B2262F168005CE5AC /* ViewController.swift in Sources */,
+				780B06592262F168005CE5AC /* AppDelegate.swift in Sources */,
+				780B06872262F514005CE5AC /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780B06652262F169005CE5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B066E2262F169005CE5AC /* VacationCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780B06702262F169005CE5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B06792262F169005CE5AC /* VacationCardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		780B066B2262F169005CE5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 780B06542262F168005CE5AC /* VacationCards */;
+			targetProxy = 780B066A2262F169005CE5AC /* PBXContainerItemProxy */;
+		};
+		780B06762262F169005CE5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 780B06542262F168005CE5AC /* VacationCards */;
+			targetProxy = 780B06752262F169005CE5AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		780B065C2262F168005CE5AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780B065D2262F168005CE5AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		780B06612262F169005CE5AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780B06622262F169005CE5AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		780B067B2262F169005CE5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		780B067C2262F169005CE5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		780B067E2262F169005CE5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52H3TQCL25;
+				INFOPLIST_FILE = VacationCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depauw.VacationCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		780B067F2262F169005CE5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52H3TQCL25;
+				INFOPLIST_FILE = VacationCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depauw.VacationCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		780B06812262F169005CE5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52H3TQCL25;
+				INFOPLIST_FILE = VacationCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depauw.VacationCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VacationCards.app/VacationCards";
+			};
+			name = Debug;
+		};
+		780B06822262F169005CE5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52H3TQCL25;
+				INFOPLIST_FILE = VacationCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depauw.VacationCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VacationCards.app/VacationCards";
+			};
+			name = Release;
+		};
+		780B06842262F169005CE5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52H3TQCL25;
+				INFOPLIST_FILE = VacationCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depauw.VacationCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VacationCards;
+			};
+			name = Debug;
+		};
+		780B06852262F169005CE5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52H3TQCL25;
+				INFOPLIST_FILE = VacationCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depauw.VacationCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VacationCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		780B06502262F168005CE5AC /* Build configuration list for PBXProject "VacationCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780B067B2262F169005CE5AC /* Debug */,
+				780B067C2262F169005CE5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780B067D2262F169005CE5AC /* Build configuration list for PBXNativeTarget "VacationCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780B067E2262F169005CE5AC /* Debug */,
+				780B067F2262F169005CE5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780B06802262F169005CE5AC /* Build configuration list for PBXNativeTarget "VacationCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780B06812262F169005CE5AC /* Debug */,
+				780B06822262F169005CE5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780B06832262F169005CE5AC /* Build configuration list for PBXNativeTarget "VacationCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780B06842262F169005CE5AC /* Debug */,
+				780B06852262F169005CE5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 780B064D2262F168005CE5AC /* Project object */;
+}
